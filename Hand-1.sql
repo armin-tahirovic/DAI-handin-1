@@ -44,5 +44,3 @@ CREATE TABLE Fact_sales (
  SalesAmount int
 );
 
-
-
