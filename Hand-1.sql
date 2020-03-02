@@ -44,9 +44,5 @@ CREATE TABLE Fact_sales (
  SalesAmount int
 );
 
-DECLARE @StartDate DATETIME
-SET @StartDate = '1996-07-04'
 
-DECLARE @EndDate DATETIME
-SET @EndDate = DATEADD(year, 3, @StartDate)
 
