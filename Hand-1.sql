@@ -32,7 +32,6 @@ CREATE TABLE Product_Dimension (
  ProductID INT,
  Product_Name CHAR(10),
  Category CHAR(10),
- Unit_Price FLOAT(10)
 );
 
 
@@ -44,4 +43,10 @@ CREATE TABLE Fact_sales (
  Quantity CHAR(10),
  SalesAmount CHAR(10)
 );
+
+DECLARE @StartDate DATETIME
+SET @StartDate = '1996-07-04'
+
+DECLARE @EndDate DATETIME
+SET @EndDate = DATEADD(year, 3, @StartDate)
 
